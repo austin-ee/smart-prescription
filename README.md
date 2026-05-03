@@ -58,12 +58,10 @@ This system:
 ```json
 {
   "drugs": [
-    { "name": "Amoxicillin", "frequency": "TDS" },
-    { "name": "Paracetamol", "frequency": "QID" },
-    { "name": "Ibuprofen", "frequency": "BD" }
+    { "drug_name": "Amoxicillin", "frequency": "TDS", "start_hour": 10, "duration": 3 },
+    { "name": "Paracetamol", "frequency": "QID", "start_hour": 08, "duration": 3 },
+    { "name": "Ibuprofen", "frequency": "BD" "start_hour": 10, "duration": 4}
   ],
-  "days": 2,
-  "start_hour": 8
 }
 ```
 
@@ -91,7 +89,7 @@ Conflicts are **advisory**, not enforced—allowing flexibility for real-world c
 
 ## 🌐 Live Demo
 
-👉 https://your-app.onrender.com/docs
+👉 https://smart-prescription.onrender.com/docs
 
 ---
 
